@@ -1,0 +1,203 @@
+/* Dropdown Button */
+
+/* The sidebar menu */
+.bignav{
+  
+}
+.bignav a {
+   text-decoration: none;
+  color: rgb(255, 255, 255);
+   padding: 2em;
+}
+.bignav a:hover {
+  text-decoration: none;
+  color: rgb(126, 126, 126);
+  padding: 2em;
+}
+.bignav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+
+}
+.bignav li{
+  display: inline-block;
+  padding-bottom: 2em;
+
+}
+.navbar{
+    width: 100%;
+    background-color: rgb(42, 42, 42);
+   
+}
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+@media screen and (max-width: 800px) {
+  .bignav{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 800px) {
+.openbtn{
+  display: none;
+}
+}
+/* The button used to open the sidebar */
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+.openbtn:hover {
+  background-color: #444;
+}
+
+
+
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
+
+body{
+  background: rgb(201,45,253);
+  background: linear-gradient(0deg, rgba(201,45,253,1) 0%, rgba(82,34,195,1) 60%);  font-family: Verdana;
+  margin: 0;
+    
+}
+
+
+.socials{
+    background-color: #5d5aff;
+    text-align: center;
+    padding: 20px 24px;
+    font-size: 17px;
+    font-family: Verdana;
+    color: #f2f2f2;
+    font-style: none;
+    text-decoration: none;
+    margin-top:1em;
+    border-radius: 1em;
+    display:inline-block;
+    
+}
+#nameSpace{
+    padding: 10em;
+    text-align: center;
+    background-image: 
+   
+  
+}
+
+.js-scroll {
+  opacity: 0;
+  transition: opacity 1000ms;
+}
+ 
+.js-scroll.scrolled {
+  opacity: 1;
+}
+.Project{
+ 
+ 
+  display: flex;
+  
+  flex-direction: column;
+}
+.currentProjects{
+  
+  color: #f2f2f2;
+  font-family: Verdana;
+  padding: 1em;
+  
+ 
+}
+
+
+
+.Project:nth-of-type(even) {
+  flex-direction: row-reverse;
+  text-align: right;
+  flex-direction: column;
+}
+
+
+
+.Project a{
+  text-decoration: none;
+  color: #f2f2f2;
+  font-family: Verdana;
+  padding: 20px;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #5d5aff;
+  border-radius: 1em;
+ 
+  margin-bottom: 1em;
+  transition: 0.5s;
+  width: 10%;
+}
+.section1 {
+  background-color: rgb(152, 57, 57);
+  height: 100%;
+  margin: 0;
+}
+.section2 {
+  background: linear-gradient(#1b1819, #ed1654);
+  height: 100%;
+}
